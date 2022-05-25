@@ -1,5 +1,6 @@
 let i = 0
 let somma = 0
+let stamp = document.getElementById("somma")
 
 
 while (i < 5) {
@@ -11,3 +12,5 @@ while (i < 5) {
 }
 
 console.log("La somma è " + somma);
+
+stamp.innerHTML = somma
