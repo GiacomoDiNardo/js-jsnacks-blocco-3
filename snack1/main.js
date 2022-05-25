@@ -9,9 +9,9 @@ while (i < 50) {
         console.log("Sono ammesse solo cifre");
     } else {
         numbersContainer.push(askNumber);
-        somma += askNumber
+        somma += askNumber;
 
-        i = somma
+        i = somma;
 
         console.log("la somma " + somma);
         console.log("valore i " + i);
